@@ -2,9 +2,17 @@
   height: 30%;
   width: 30%;
 }
+.home-bg-dark {
+  background-color: #000000;
+}
+
+.home-bg-light {
+  background-color: #ffffff;
+}
 
 div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
